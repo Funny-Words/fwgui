@@ -1,22 +1,27 @@
-# ethos
+# Fwgui
 
-TODO: Write a description here
+Fwgui (FunnyWords GUI) is a simple GUI for interacting with FunnyWords API.
+
+![screenshot](./data/assets/screen1)
+![screenshot2](./data/assets/screen2)
 
 ## Installation
 
-TODO: Write installation instructions here
+Right now installation isn't possible.
 
-## Usage
+### Compiling
 
-TODO: Write usage instructions here
+Clone repository, install gtk-devel and gtk libraries.
 
-## Development
+Then do
 
-TODO: Write development instructions here
+```cr
+shards build
+```
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/ethos/fork>)
+1. Fork it (<https://github.com/fragilecopy/fwgui/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -24,4 +29,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [UberNihilist](https://github.com/your-github-user) - creator and maintainer
+- [fragilecopy](https://github.com/fragilecopy) - creator and maintainer
