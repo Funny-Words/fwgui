@@ -6,6 +6,8 @@ Fwgui (FunnyWords GUI) is a simple GUI for interacting with FunnyWords API.
 
 ![screenshot2](./data/assets/screen2.png)
 
+![screenshot3](./data/assets/screen3.png)
+
 ## Installation
 
 Right now installation isn't possible.
