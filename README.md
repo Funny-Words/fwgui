@@ -1,7 +1,5 @@
 # fwgui
 
-![fw](./data/assets/fw.png)
-
 fwgui (FunnyWords GUI) is a simple GUI for interacting with FunnyWords API.
 
 ## Some screenshots
@@ -14,7 +12,7 @@ fwgui (FunnyWords GUI) is a simple GUI for interacting with FunnyWords API.
 
 ## Installation
 
-Right now installation isn't possible, instead you can build fwgui yourself.
+See Releases page
 
 ### Compiling
 
@@ -23,7 +21,7 @@ Clone repository, install gtk-devel and gtk libraries.
 Then do
 
 ```cr
-shards build
+crystal build src/fw.cr --release
 ```
 
 ## Contributing

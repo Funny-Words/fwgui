@@ -18,7 +18,7 @@
     <property name="can-focus">False</property>
     <property name="title" translatable="yes">FunnyWords</property>
     <property name="window-position">center</property>
-    <property name="icon">../icons/fw.svg</property>
+    <property name="icon-name">emblem-favorite</property>
     <signal name="destroy" handler="gtk_main_quit" swapped="no"/>
     <child>
       <object class="GtkNotebook">
@@ -34,7 +34,7 @@
               <object class="GtkBox">
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
-                <property name="spacing">10</property>
+                <property name="spacing">4</property>
                 <child>
                   <object class="GtkLabel">
                     <property name="visible">True</property>
@@ -59,21 +59,6 @@
                     <property name="expand">False</property>
                     <property name="fill">True</property>
                     <property name="position">1</property>
-                  </packing>
-                </child>
-                <child>
-                  <object class="GtkImage">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="double-buffered">False</property>
-                    <property name="halign">end</property>
-                    <property name="margin-start">30</property>
-                    <property name="icon-name">dialog-warning</property>
-                  </object>
-                  <packing>
-                    <property name="expand">False</property>
-                    <property name="fill">True</property>
-                    <property name="position">2</property>
                   </packing>
                 </child>
                 <child>
@@ -124,10 +109,10 @@
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
-                <property name="valign">end</property>
-                <property name="margin-start">4</property>
-                <property name="margin-end">4</property>
-                <property name="margin-bottom">7</property>
+                <property name="margin-start">3</property>
+                <property name="margin-end">3</property>
+                <property name="margin-top">4</property>
+                <property name="margin-bottom">3</property>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -154,13 +139,11 @@
           <object class="GtkBox">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="valign">center</property>
             <property name="orientation">vertical</property>
             <child>
               <object class="GtkLabel">
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
-                <property name="valign">start</property>
                 <property name="margin-top">4</property>
                 <property name="margin-bottom">4</property>
                 <property name="label" translatable="yes">Смешное Кслово</property>
@@ -177,13 +160,12 @@
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
-                <property name="double-buffered">False</property>
                 <property name="margin-start">4</property>
                 <property name="margin-end">4</property>
                 <property name="margin-bottom">4</property>
               </object>
               <packing>
-                <property name="expand">False</property>
+                <property name="expand">True</property>
                 <property name="fill">True</property>
                 <property name="position">1</property>
               </packing>
@@ -191,7 +173,6 @@
           </object>
           <packing>
             <property name="position">1</property>
-            <property name="tab-fill">False</property>
             <property name="reorderable">True</property>
           </packing>
         </child>
@@ -383,6 +364,7 @@
     <property name="default-width">440</property>
     <property name="default-height">250</property>
     <property name="destroy-with-parent">True</property>
+    <property name="icon-name">dialog-ok</property>
     <property name="type-hint">dialog</property>
     <property name="urgency-hint">True</property>
     <property name="gravity">center</property>
