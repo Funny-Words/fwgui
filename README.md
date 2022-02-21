@@ -1,6 +1,6 @@
 # fwgui
 
-![fw](./data/assets/fw.svg)
+![fw](./data/assets/fw.png)
 
 fwgui (FunnyWords GUI) is a simple GUI for interacting with FunnyWords API.
 
