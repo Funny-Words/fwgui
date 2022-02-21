@@ -68,7 +68,7 @@
                     <property name="double-buffered">False</property>
                     <property name="halign">end</property>
                     <property name="margin-start">30</property>
-                    <property name="icon-name">dialog-information</property>
+                    <property name="icon-name">dialog-warning</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -106,6 +106,8 @@
               <object class="GtkSpinButton" id="words_spin">
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
+                <property name="margin-start">6</property>
+                <property name="margin-end">6</property>
                 <property name="max-length">2</property>
                 <property name="placeholder-text" translatable="yes">Кол-во слов</property>
                 <property name="adjustment">adjustment1</property>
@@ -325,7 +327,7 @@
                 <property name="margin-bottom">6</property>
                 <property name="label" translatable="yes">Данная программа предоставляет удобный
 графический пользовательский интерфейс
-для взаимодействия с FunnyWordsAPI</property>
+для взаимодействия с FunnyWords API</property>
                 <property name="wrap">True</property>
               </object>
               <packing>

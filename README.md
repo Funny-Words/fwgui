@@ -1,6 +1,10 @@
-# Fwgui
+# fwgui
 
-Fwgui (FunnyWords GUI) is a simple GUI for interacting with FunnyWords API.
+![fw](./data/assets/fw.svg)
+
+fwgui (FunnyWords GUI) is a simple GUI for interacting with FunnyWords API.
+
+## Some screenshots
 
 ![screenshot](./data/assets/screen1.png)
 
@@ -10,7 +14,7 @@ Fwgui (FunnyWords GUI) is a simple GUI for interacting with FunnyWords API.
 
 ## Installation
 
-Right now installation isn't possible.
+Right now installation isn't possible, instead you can build fwgui yourself.
 
 ### Compiling
 
@@ -33,3 +37,7 @@ shards build
 ## Contributors
 
 - [fragilecopy](https://github.com/fragilecopy) - creator and maintainer
+
+## License
+
+[MIT](./README.md)
