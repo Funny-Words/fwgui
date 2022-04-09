@@ -26,7 +26,7 @@ crystal build src/fw.cr --release
 
 ## Contributing
 
-1. Fork it (<https://github.com/fragilecopy/fwgui/fork>)
+1. Fork it (<https://github.com/Funny-Words/fwgui/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -34,7 +34,7 @@ crystal build src/fw.cr --release
 
 ## Contributors
 
-- [fragilecopy](https://github.com/fragilecopy) - creator and maintainer
+- [uebernihilist](https://github.com/uebernihilist) - creator and maintainer
 
 ## License
 
